@@ -4,14 +4,14 @@ package {{$name}};
 
 our $VERSION = '0.0100';
 
-use Carp qw(croak);
 use Moo;
 use strictures 2;
+use Carp qw(croak);
 use namespace::clean;
 
 =head1 SYNOPSIS
 
-  use {{$name}};
+  use {{$name}} ();
 
   my $x = {{$name}}->new(verbose => 1);
 
