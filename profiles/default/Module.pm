@@ -13,7 +13,7 @@ use warnings;
 
 =head1 SYNOPSIS
 
-  use {{$name}};
+  use {{$name}} ();
 
   $foo = {{$name}}::foo();
 
